@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a car</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- fontawesome 4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- my custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icon -->
+    <link rel="shortcut icon" href="./img/icon1.png" type="image/x-icon">
+    
+
+</head>
+<body>
+
+    <!-- Alert -->
+    <div class="alert btn-yellow alert-dismissible fade show m-0" role="alert">
+        Check out new feature
+        <a class="fw-bold" href="#" id="dark-mode-btn">Dark mode</a>
+
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+    <!-- header -->
+
+    <header class="container-xxl header">
+        <div class="d-flex flex-wrap justify-content-center py-2 mb-4 align-items-center">
+            <a href="/" class="mb-1 mb-md-0 me-md-auto">
+                <img class="logo" src="./img/icon2.png" alt="">
+            </a>
+    
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link fs-6 nav-a-tag fw-bold" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link fs-6 nav-a-tag fw-bold">Services</a></li>
+                <li class="nav-item"><a href="#collections" class="nav-link fs-6 nav-a-tag fw-bold">Collections</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link fs-6 nav-a-tag fw-bold">About</a></li>
+            </ul>
+        </div>
+
+        <!-- header content -->
+
+        <div class="container text-light header-content d-flex flex-column text-center align-items-center">
+            <h1 class="text-uppercase display-4 fw-bold">Rent a <span>CAR</span> Book online now<span>.</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, est.</p>
+            <div class="mt-2">
+                <a href="#collections" class="btn px-5 py-3 mt-2 mx-4 btn-dark border">COLLECTIONS</a>
+                <a href="#contact" class="btn px-5 py-3 mt-2 mx-4 btn-yellow border">BOOK NOW</a>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+    <!-- services section -->
+    <section id="services" class="container my-5 txt-black text-center">
+        <h2 class="fs-2 fw-bold mb-3">SERVICES</h2>
+        <p class="txt-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sed vero nam harum non eligendi asperiores fuga. Sunt, obcaecati ipsam.</p>
+
+        <div class="row mt-5 txt-grey">
+            <div class="col-sm-4 mt-2">
+                <i class="fa fa-location-arrow fa-2x txt-yellow"></i>
+                <h5 class="my-2 txt-yellow">Location</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, consequuntur minima? Illo tempora officia nostrum, eum impedit magni pariatur nulla!</p>
+            </div>
+            <div class="col-sm-4 mt-2">
+                <i class="fa fa-car fa-2x txt-grey"></i>
+                <h5 class="my-2 txt-grey">Collection</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem impedit, unde earum id commodi recusandae qui dolores odit quam reiciendis.</p>
+            </div>
+            <div class="col-sm-4 mt-2">
+                <i class="fa fa-map fa-2x txt-blue"></i>
+                <h5 class="my-2 txt-blue">Range</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur eius tempora, quaerat iusto cum eveniet expedita ea omnis labore vel.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- collection section -->
+    <section id="collections" class="container-xxl text-center my-5 margin-t-1"  data-aos="fade-up">
+        <h2 class="fs-2 txt-black my-4 fw-bold">LUXUARY COLLECTIONS</h2>
+
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <img style="object-fit: cover; height: 100%; width: 100%;" src="./img/car1.jpg" alt="">
+            </div>
+            <div class="carousel-cell">
+                <img style="object-fit: cover; height: 100%; width: 100%;" src="./img/car2.jpg" alt="">
+            </div>
+            <div class="carousel-cell">
+                <img style="object-fit: cover; height: 100%; width: 100%;" src="./img/car3.jpg" alt="">
+            </div>
+            <div class="carousel-cell">
+                <img style="object-fit: cover; height: 100%; width: 100%;" src="./img/car4.jpg" alt="">
+            </div>
+            <div class="carousel-cell">
+                <img style="object-fit: cover; height: 100%; width: 100%;" src="./img/car5.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="mt-2"></div>
+
+        <!-- other collections -->
+        <div class="container my-5 other-collection">
+            <h4 class="txt-black fs-3 my-4 fw-bold text-center">OTHER COLLECTIONS</h4>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img data-aos="flip-left" class="img-fluid" src="./img/car11.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car12.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car13.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car14.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car19.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img data-aos="flip-right" class="img-fluid" src="./img/car20.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car21.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car22.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car15.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car16.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img  data-aos="flip-left" class="img-fluid" src="./img/car17.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3 mt-1 overflow-hidden">
+                    <img class="img-fluid" src="./img/car18.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- about section -->
+    <section id="about" class="container-xxl txt-black margin-t-1 text-center p-0">
+        <div class="container">
+            <h4 class="fs-2 fw-bold mb-5">ABOUT US</h4>
+            <div class="row txt-grey">
+                <div class="col-sm-6 text-start">
+                    <h4 class="fs-4">Hello world</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo, dolores quod eos provident, veritatis, aut accusantium itaque enim libero minima soluta amet corrupti hic quam minus optio delectus quo!</p>
+                    <a href="#contact" class="btn px-5 py-3 mt-2 btn-yellow border">BOOK NOW</a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./img/undraw2.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="about-bg p-5 txt-white my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>450</h2>
+                        <h4>CLIENTS</h4>
+                    </div>
+                    <div class="col-sm-4 border-r-l">
+                        <h2>250</h2>
+                        <h4>CARS</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>24</h2>
+                        <h4>SHOWROOMS</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- contact -->
+    <section id="contact" class="container margin-t-1 txt-black">
+
+        <h4 class="fs-2 fw-bold text-center">BOOK CAR NOW</h4>
+
+        
+        <div class="row my-5 text-center txt-grey">
+            <div class="col-sm-4">
+                <span>Address</span>
+                <p>Satellite town, Rawalpindi, Pakistan</p>
+            </div>
+            <div class="col-sm-4">
+                <span>Customer Support</span>
+                <p class="mb-0">saqibaziz@example.com</p>
+                <p>+9210101011</p>
+            </div>
+            <div class="col-sm-4">
+                <span>Social</span>
+                <br>
+                <i class="fa fa-facebook btn txt-grey"></i>
+                <i class="fa fa-instagram btn txt-grey"></i>
+                <i class="fa fa-telegram btn txt-grey"></i>
+            </div>
+        </div>
+        
+
+        <form>
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="mb-1">Name</p>
+                <input class="form-control" type="text">
+            </div>
+            <div class="col-sm-4">
+                <p class="mb-1">Email</p>
+                <input class="form-control" type="text">
+            </div>
+            <div class="col-sm-4">
+                <p class="mb-1">Subject</p>
+                <input class="form-control" type="text">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <p class="mb-1">Messge</p>
+                <textarea class="form-control" cols="30" rows="6"></textarea>
+            </div>
+        </div>
+        <div class="my-4 d-flex justify-content-end">
+            <button class="btn px-5 mt-2 btn-yellow border">SEND</button>
+        </div>
+    </form>
+
+    </section>
+
+
+
+
+
+    <!-- footer -->
+
+<div class="background-grey margin-t-1">
+    <footer class="container py-4">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="fs-4 text-light fw-bold">Product</h2>
+                <ul class="text-light-opacity">
+                    <li>Luxuary</li>
+                    <li>sport</li>
+                    <li>casual</li>
+                    <li>cars</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="fs-4 text-light fw-bold">Information</h2>
+                <ul class="text-light-opacity">
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Gmail</li>
+                    <li>Others</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="fs-4 text-light fw-bold">Support</h2>
+                <ul class="text-light-opacity">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Other</li>
+                    <li>More</li>
+                </ul>
+            </div>
+        </div> 
+    </footer>
+    <div class="background-dark text-light-opacity text-center p-4">
+        <p class="mb-0">&copy Copyright all rights reserved designed by <span>Saqib</span></p>
+    </div>
+</div>
+
+
+    
+
+
+
+
+</body>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!-- flickity -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- animate on scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- custom javascript -->
+<script src="./script/app.js"></script>
+
+
+</html>
