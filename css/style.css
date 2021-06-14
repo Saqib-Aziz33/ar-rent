@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 :root{
     --clr-yellow: rgb(241, 210, 4);
     --clr-black: #3d3d3dda;
@@ -5,6 +6,7 @@
     --clr-white-static: rgb(233, 234, 235);
     --clr-blue: #18dcff;
     --clr-grey: #4b4b4bda;
+    --ff-1: 'Odibee Sans', cursive;
 }
 /* dark mode */
 .dark-mode{
@@ -58,7 +60,15 @@ span{
     color: rgba(233, 234, 235, 0.8);
 }
 
+
 /* Header */
+.nav-btn-yellow{
+    background-color: rgba(241, 210, 4,0.9);
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 .25rem rgba(241, 210, 4,0.5);
+}
+
 .header{
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../img/bg2.jpg") fixed no-repeat center center/cover;
      height: 100vh;
@@ -81,6 +91,11 @@ span{
 .header-content{
     margin-top: 15%;
 }
+.custom-font-1{
+    font-family: var(--ff-1);
+}
+
+
 
 
 /* flickity css */
@@ -99,17 +114,22 @@ span{
 
 
 
+
+
+
+
 /* collections */
-.other-collection img{
+/* .other-collection img{
     transition: all 0.3s ease-in;
 }
 .other-collection img:hover{
-    transform: scale(2);
-    filter: brightness(1.2);
-}
+    
+    filter: contrast(1.1);
+    box-shadow: -2px -3px 0px 12px rgba(241,204,4,0.75);
+-webkit-box-shadow: -2px -3px 0px 12px rgba(241,204,4,0.75);
+-moz-box-shadow: -2px -3px 0px 12px rgba(241,204,4,0.75);
+} */
   
-
-
 
 
 
@@ -126,10 +146,21 @@ span{
 
 
 
+
+
 /* contact section */
 .border-l{
     border-left: 1px solid;
 }
+
+
+/* bokking section */
+.form-control:focus{
+    box-shadow: 0 0 0 .25rem rgba(241, 210, 4,0.5);
+}
+
+
+
 
 
 
@@ -137,6 +168,17 @@ span{
 footer ul{
     list-style-type: disc;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
