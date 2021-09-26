@@ -70,7 +70,7 @@ span{
 }
 
 .header{
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../img/bg2.jpg") fixed no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../img/bg2.jpg") fixed no-repeat center;
      height: 100vh;
     min-height: 600px;
 }
@@ -137,7 +137,7 @@ span{
 
 /* about */
 .about-bg{
-    background: linear-gradient(rgba(241, 210, 4, 0.6),rgba(241, 210, 4, 0.6)), url("../img/bg1.jpg") fixed no-repeat center center/cover;
+    background: linear-gradient(rgba(241, 210, 4, 0.6),rgba(241, 210, 4, 0.6)), url("../img/bg1.jpg") fixed no-repeat center center;
 }
 .border-r-l{
     border-left: 2px solid;
